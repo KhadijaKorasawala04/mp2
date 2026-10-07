@@ -1,0 +1,225 @@
+.back {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.pager {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.pagerLink {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--card);
+}
+
+.pagerLink:hover {
+  border-color: var(--accent);
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+
+.image {
+  flex: 1 1 260px;
+  max-width: 320px;
+  min-width: 0;
+  aspect-ratio: 1;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.info {
+  flex: 1 1 300px;
+}
+
+.name {
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+
+.types {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0 0 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.type {
+  padding: 0.1rem 0.7rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #ffffff;
+  font-size: 0.875rem;
+  text-transform: capitalize;
+}
+
+.normal {
+  background: #a8a77a;
+}
+
+.fire {
+  background: #ee8130;
+}
+
+.water {
+  background: #6390f0;
+}
+
+.electric {
+  background: #f7d02c;
+}
+
+.grass {
+  background: #7ac74c;
+}
+
+.ice {
+  background: #96d9d6;
+}
+
+.fighting {
+  background: #c22e28;
+}
+
+.poison {
+  background: #a33ea1;
+}
+
+.ground {
+  background: #e2bf65;
+}
+
+.flying {
+  background: #a98ff3;
+}
+
+.psychic {
+  background: #f95587;
+}
+
+.bug {
+  background: #a6b91a;
+}
+
+.rock {
+  background: #b6a136;
+}
+
+.ghost {
+  background: #735797;
+}
+
+.dragon {
+  background: #6f35fc;
+}
+
+.dark {
+  background: #705746;
+}
+
+.steel {
+  background: #b7b7ce;
+}
+
+.fairy {
+  background: #d685ad;
+}
+
+.electric,
+.ice,
+.ground,
+.steel {
+  color: var(--text);
+}
+
+.description {
+  margin: 0 0 1rem;
+}
+
+.attributes {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.4rem 1.5rem;
+  margin: 0;
+}
+
+.attributes dt,
+.stat dt {
+  color: var(--muted);
+  text-transform: capitalize;
+}
+
+.attributes dd,
+.stat dd {
+  margin: 0;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.heading {
+  margin: 1.25rem 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.stats {
+  margin: 0;
+}
+
+.stat {
+  display: grid;
+  grid-template-columns: 9rem 1fr;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.15rem 0;
+}
+
+.stat dd {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.statValue {
+  width: 2rem;
+  text-align: right;
+}
+
+.bar {
+  flex: 1;
+  min-width: 0;
+  height: 0.6rem;
+  border: none;
+  border-radius: 999px;
+  background: var(--border);
+  overflow: hidden;
+  appearance: none;
+}
+
+.bar::-webkit-progress-bar {
+  background: var(--border);
+}
+
+.bar::-webkit-progress-value {
+  border-radius: 999px;
+  background: var(--accent);
+}
+
+.bar::-moz-progress-bar {
+  border-radius: 999px;
+  background: var(--accent);
+}

@@ -1,0 +1,47 @@
+.header {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-right: auto;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.link {
+  padding: 0.3rem 0.75rem;
+  border-radius: 4px;
+}
+
+.link:hover,
+.active {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.ball {
+  width: 1.5rem;
+  height: 1.5rem;
+  stroke: var(--text);
+  stroke-width: 2;
+}
+
+.ballTop {
+  fill: var(--accent);
+}
+
+.ballBottom {
+  fill: #ffffff;
+}

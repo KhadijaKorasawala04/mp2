@@ -1,0 +1,16 @@
+.main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+.footer {
+  padding: 1.5rem 1rem;
+  color: var(--muted);
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.footerLink {
+  text-decoration: underline;
+}
